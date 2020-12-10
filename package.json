@@ -1,19 +1,29 @@
 {
-  "name": "amart",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/AzfarYarKhan/Ecommerce-site-Amart.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/AzfarYarKhan/Ecommerce-site-Amart/issues"
-  },
-  "homepage": "https://github.com/AzfarYarKhan/Ecommerce-site-Amart#readme"
+	"name": "amart",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"dev": "nodemon server.js",
+		"serve": "node server.js",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/AzfarYarKhan/Ecommerce-site-Amart.git"
+	},
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/AzfarYarKhan/Ecommerce-site-Amart/issues"
+	},
+	"homepage": "https://github.com/AzfarYarKhan/Ecommerce-site-Amart#readme",
+	"dependencies": {
+		"ejs": "^3.1.5",
+		"express": "^4.17.1",
+		"express-ejs-layouts": "^2.5.0"
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.6"
+	}
 }
