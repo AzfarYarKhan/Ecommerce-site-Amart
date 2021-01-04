@@ -70,3 +70,7 @@ section.login a {
   color: #fe5f1e;
 }
 
+section.login:hover {
+  color: #b23301;
+}
+
