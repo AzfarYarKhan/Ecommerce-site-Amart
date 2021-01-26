@@ -10,6 +10,8 @@ function initRoutes(app) {
 	app.get("/login", authcontroller().login);
 
 	app.get("/register", authcontroller().register);
+
+	app.post("/update-cart", cartcontroller().update);
 }
 
 module.exports = initRoutes;
